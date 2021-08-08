@@ -1,0 +1,99 @@
+﻿@font-face {
+    font-family: Playlist Script;
+    src: url("fonts/Playlist Script.otf") format('opentype');
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url("fonts/Lato-Regular.ttf") format('truetype');
+}
+
+    body {
+    background-image: url("images/compbg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navigation {
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+   
+
+}
+
+.navigation ul {
+    text-align: center;
+}
+
+    .navigation li {
+        list-style-type: none;
+        /* display:inline-block; */
+    }
+
+    .navigation ul li a{
+        /* display: block; */
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-family: Lato-Regular, Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        letter-spacing:2px;
+        font-weight:500;
+        padding:15px;
+    }
+
+    .navigation ul li a:hover{
+        background-color: #6d8073
+    }
+
+.container {
+    background-color: #6d8073;
+    width: 80%;
+    display: flex;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 15px 15px rgba(255,255,255, 0.7);
+
+}
+
+.selfpic{
+    vertical-align:middle;
+    padding:20px;
+   position:absolute;
+    z-index:3;
+    width: 30%;
+
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 365px 0 0 365px;
+    border-color: transparent transparent transparent dimgrey;
+    z-index: 1;
+    float: left;
+    
+}
+
+.name {
+    z-index: 1;
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    color: white;
+    font-family: Lato-Regular, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    line-height: 5px;
+    padding: 50px 50px 50px 40px;
+}
+    
+.mytitle{
+    line-height: 1em;
+}
+
+

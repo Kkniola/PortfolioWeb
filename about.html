@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Katie Kniola, programming, web developer, information technology">
+    <meta name="description" content="Personal portfolio website for Katie Kniola">
+    <meta name="author" content="Katie Kniola">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://kit.fontawesome.com/cb166f3e9b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+    <title>About</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navWrapper">
+            <div class="navigation">
+                <ul>
+                    <li><a href="about.html">About </a></li>|
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html"><span class="namenav">Katie <br> Kniola</span></a></li>
+                    <li><a href="work.html">Work</a></li>|
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="break"></div>
+
+    <div class="content">
+        <div class="aboutText">
+            <h1>Hi, I'm Katie.</h1>
+            Katie Kniola is a full-stack developer looking forward to starting a new career in the tech industry. She recently completed Cuyahoga Community College’s Cleveland Codes Software Developer’s Academy, where she thrived on the fast paced learning environment and showcased her leadership skills as the capstone project team leader.
+            Katie is experience in HTML/CSS, Javascript, C# and SQL programming languages, and is confident working in Razor Pages in ASP.NET Core, Visual Studio, GitHub, WordPress, Google Workspace and more.<br><br>
+            In her previous career, Katie utilized her leadership, creativity and management skills while working with kids. Her vast experience ranges from Stage Manager at Heights Youth Theater, to the Gym Director at the Little Gym of Shaker Heights and most recently as a self-employed childcare provider.<br><br>
+            Katie is also a passionate volunteer at the Parma Animal Shelter where she serves as the Secretary on the Board of Trustees and as the Chairperson of the Membership Committee. 
+            Her past projects at the Parma Animal Shelter include introducing/utilizing the volunteer management system Better Impact, implementing Square credit card and acceptance and working hard to improve social media presence.<br><br>
+            A huge animal lover, Katie currently resides in Parma, Ohio with her husband, Blake and their crew of rescue animals. She loves to spend time with her pets, play video/board games, cook and participate in recreational sports. Katie looks forward to continuing her journey as a developer by working on her own JavaScript-centric RPG.
+        </div>
+        
+
+        <div class="aboutPics">
+            <div class="slideshow-container">
+            <div class="mySlides fade" style="display: block;">
+                <div class="numbertext">1 / 8</div>
+                <img src="images/selfpic.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 8</div>
+                <img src="images/dizzy.jpg" style="width:100%">
+              </div>
+        
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 8</div>
+                <img src="images/boots2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 8</div>
+                <img src="images/kbcats.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 8</div>
+                <img src="images/brie.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 8</div>
+                <img src="images/zoey.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 8</div>
+                <img src="images/bootsshoe.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 8</div>
+                <img src="images/dobby.jpg" style="width:100%">
+            </div>
+        
+
+                    <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+            </div>
+        </div>
+
+    </div>
+
+        <div class="break"></div>
+
+        <footer id="footer">
+            <div class="footerContent"> 
+               <div class="icons">
+                <a href="mailto:katiesickels@gmail.com"><i class="fas fa-envelope"></i></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/katiekniola/"><i class="fab fa-linkedin-in"></i></a>&nbsp;&nbsp;<a href="https://www.github.com/kkniola"><i class="fab fa-github-alt"></i></a>
+               </div>
+               <div class="search">
+                    <form id="frmSearch" class="search2" method="get" action="default.html" />
+                    <input class="search0" id="txtSearch" type="text" name="search_bar" size="31" maxlength="255"       
+                    value="" placeholder="Search ..."/>
+                    <input class="search1" type="submit" name="submit" value="Go" />
+                    <input class="search2" type="hidden" name="sitesearch" value="default.html" />
+               </div>
+    
+               <script type="text/javascript">
+                document.getElementById('frmSearch').onsubmit = function() {
+                    window.location = 'http://www.google.com/search?q=site:kkniola.com ' + document.getElementById('txtSearch').value;
+                    return false;
+                }
+            </script>
+    
+            </div>
+    
+    </footer>
+
+    </div>
+</body>
+</html>
