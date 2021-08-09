@@ -282,6 +282,19 @@ a {
         height: 90%;
     }
 
+    .indexContent
+    {
+        width: 100%;
+        font-family: Fira Sans;
+        color:rgba(90, 90, 90, 0.979);
+        font-size: 1em;
+        padding-top: 2em;
+        padding-left: 5em;
+        padding-right: 5em;
+        text-align:center;
+        align-items: center;
+    }
+
     .workHeader{
         width: 100%;
         text-align: left;
